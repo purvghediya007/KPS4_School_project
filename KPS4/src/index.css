@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  padding-top: 75px; /* adjust based on navbar height */
+}
+
+/* index.css or App.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
